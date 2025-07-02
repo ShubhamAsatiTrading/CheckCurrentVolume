@@ -1,0 +1,30 @@
+# PRODUCTION Conservative VWAP-RSI Strategy Configuration
+# Optimized for real trading with multiple symbols
+
+# CORE STRATEGY PARAMETERS
+vwap_periods=36
+rsi_periods=14
+vwap_breakout_threshold=0.12
+rsi_long_min=45
+rsi_long_max=70
+rsi_short_min=30
+rsi_short_max=55
+volume_boost_threshold=2.0
+min_signal_strength=6
+
+# TRADING HOURS (IST)
+market_open_hour=9
+market_open_minute=45
+market_close_hour=14
+market_close_minute=45
+
+# RISK MANAGEMENT
+require_15min_confirmation=1
+stop_loss_pct=2.0
+target_pct=3.0
+max_trades_per_day=6
+
+# PERFORMANCE OPTIMIZATION
+max_workers=4
+enable_caching=1
+development_mode=0

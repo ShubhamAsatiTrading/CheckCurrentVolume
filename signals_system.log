@@ -1,0 +1,11 @@
+2025-06-15 21:58:17,766 - INFO - SIGNALS SYSTEM STARTING
+2025-06-15 21:58:17,767 - INFO - ==================================================
+2025-06-15 21:58:18,811 - INFO - Using saved token from file
+2025-06-15 21:58:20,725 - INFO - Logged in as: Shubham Asati (ID: XM7860)
+2025-06-15 21:58:20,725 - INFO - Starting hourly signal scanner...
+2025-06-15 21:58:20,725 - INFO - Running signals at 2025-06-15 21:58:20
+2025-06-15 21:58:22,159 - INFO - Running volume boost scanner and signals...
+2025-06-15 21:58:28,519 - INFO - Signals workflow completed successfully
+2025-06-15 21:58:28,519 - INFO - Signals run completed - waiting 1 hour for next run
+2025-06-15 21:58:28,558 - INFO - Sleeping for 1 hour...
+2025-06-15 22:10:48,055 - INFO - Signal system stopped by user

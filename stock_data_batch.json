@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "RELIANCE",
+    "url": "https://www.screener.in/company/RELIANCE/consolidated/",
+    "financial_metrics": {
+      "market_cap": 19323010000000.0,
+      "current_price": 1428.0,
+      "high": 1609.0,
+      "low": 1115.0,
+      "pe_ratio": 27.7,
+      "book_value": 623.0,
+      "dividend_yield": 0.35,
+      "roce": 9.43,
+      "roe": 8.51,
+      "face_value": 10.0
+    },
+    "shareholding_pattern": {
+      "promoters": 50.1,
+      "fiis": 19.07,
+      "diis": 19.36,
+      "government": 0.17,
+      "public": 11.29
+    },
+    "scraped_at": "2025-06-14 22:32:57"
+  },
+  {
+    "symbol": "CUMMINSIND",
+    "url": "https://www.screener.in/company/CUMMINSIND/consolidated/",
+    "financial_metrics": {
+      "market_cap": 917530000000.0,
+      "current_price": 3310.0,
+      "high": 4172.0,
+      "low": 2580.0,
+      "pe_ratio": 45.9,
+      "book_value": 273.0,
+      "dividend_yield": 1.56,
+      "roce": 36.4,
+      "roe": 28.2,
+      "face_value": 2.0
+    },
+    "shareholding_pattern": {
+      "promoters": 51.0,
+      "fiis": 17.21,
+      "diis": 22.84,
+      "government": 0.1,
+      "public": 8.85
+    },
+    "scraped_at": "2025-06-14 22:32:59"
+  }
+]

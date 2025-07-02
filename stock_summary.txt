@@ -1,0 +1,54 @@
+STOCK SUMMARY REPORT
+==================================================
+Generated on: 2025-06-29 20:42:32
+==================================================
+
+Total Stocks Processed: 2
+Successful: 2
+Failed: 0
+
+SUCCESSFUL SCRAPES:
+==================================================
+
+SYMBOL: RELIANCE
+--------------------
+Market Cap:      ₹20,507,100,000,000 Cr.
+Current Price:   ₹1,515.00
+High / Low:      ₹1609.0 / ₹1115.0
+P/E Ratio:       29.4
+Book Value:      ₹623.00
+Dividend Yield:  0.33%
+ROE:             8.51%
+ROCE:            9.43%
+Face Value:      ₹10.0
+
+Shareholding Pattern:
+  Promoters   : 50.1%
+  Fiis        : 19.07%
+  Diis        : 19.36%
+  Government  : 0.17%
+  Public      : 11.29%
+
+==================================================
+
+SYMBOL: CUMMINSIND
+--------------------
+Market Cap:      ₹925,070,000,000 Cr.
+Current Price:   ₹3,337.00
+High / Low:      ₹4164.0 / ₹2580.0
+P/E Ratio:       46.2
+Book Value:      ₹273.00
+Dividend Yield:  1.54%
+ROE:             28.2%
+ROCE:            36.4%
+Face Value:      ₹2.0
+
+Shareholding Pattern:
+  Promoters   : 51.0%
+  Fiis        : 17.21%
+  Diis        : 22.84%
+  Government  : 0.1%
+  Public      : 8.85%
+
+==================================================
+
