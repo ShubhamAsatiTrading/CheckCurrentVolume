@@ -1,0 +1,10 @@
+stop_loss=4.0
+target=10.0
+ohlc_value=high
+trade_today_flag=no
+check_from_date=2025-05-01
+avg_volume_days=30
+live_data_download=yes
+rerun_minute=4
+symbols_per_worker=3
+max_concurrent_requests=8
