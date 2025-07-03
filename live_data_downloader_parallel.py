@@ -24,9 +24,9 @@ MARKET_START_TIME = "09:15"
 MARKET_END_TIME = "15:30"
 
 # API Rate Limits (Conservative estimates for Kite Connect)
-MAX_CONCURRENT_REQUESTS = 20  # Maximum simultaneous requests
-REQUESTS_PER_SECOND = 15      # Rate limit per second
-BATCH_DELAY = 0.1             # Delay between batches in seconds
+MAX_CONCURRENT_REQUESTS = 10  # Maximum simultaneous requests
+REQUESTS_PER_SECOND = 5      # Rate limit per second
+BATCH_DELAY = 0.2             # Delay between batches in seconds
 
 class Logger:
     """Async-compatible logger class"""
@@ -271,7 +271,10 @@ class ParallelLiveDataDownloader:
     def get_filename(self):
         """Generate daily filename"""
         today = datetime.now().strftime("%Y-%m-%d")
-        return f"StockLiveData_{today}.csv"
+        directory = "StockliveData"
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        return os.path.join(directory, f"StockLiveData_{today}.csv")
     
     def initialize_daily_cache(self):
         """Initialize or load existing data cache for the day"""
